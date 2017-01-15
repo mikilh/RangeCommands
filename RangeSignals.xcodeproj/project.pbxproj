@@ -14,6 +14,10 @@
 		9F5ECF241E2AD78E005F14C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F5ECF221E2AD78E005F14C0 /* LaunchScreen.storyboard */; };
 		9F5ECF2F1E2AD78F005F14C0 /* RangeSignalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5ECF2E1E2AD78F005F14C0 /* RangeSignalsTests.swift */; };
 		9F5ECF3A1E2AD78F005F14C0 /* RangeSignalsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5ECF391E2AD78F005F14C0 /* RangeSignalsUITests.swift */; };
+		9F5ECF481E2ADDF1005F14C0 /* buzzer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F5ECF471E2ADDF1005F14C0 /* buzzer.mp3 */; };
+		9F5ECF4D1E2AF7CE005F14C0 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5ECF4C1E2AF7CE005F14C0 /* SettingsTableViewController.swift */; };
+		9FF8AF311E2BAAA500F5D46B /* whistle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9FF8AF301E2BAAA500F5D46B /* whistle.mp3 */; };
+		9FF8AF331E2C1E2800F5D46B /* buzzer2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9FF8AF321E2C1E2800F5D46B /* buzzer2.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		9F5ECF351E2AD78F005F14C0 /* RangeSignalsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RangeSignalsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F5ECF391E2AD78F005F14C0 /* RangeSignalsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSignalsUITests.swift; sourceTree = "<group>"; };
 		9F5ECF3B1E2AD78F005F14C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F5ECF471E2ADDF1005F14C0 /* buzzer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buzzer.mp3; sourceTree = "<group>"; };
+		9F5ECF4C1E2AF7CE005F14C0 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		9FF8AF301E2BAAA500F5D46B /* whistle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whistle.mp3; sourceTree = "<group>"; };
+		9FF8AF321E2C1E2800F5D46B /* buzzer2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buzzer2.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +105,14 @@
 		9F5ECF181E2AD78E005F14C0 /* RangeSignals */ = {
 			isa = PBXGroup;
 			children = (
+				9F5ECF491E2ADE09005F14C0 /* sounds */,
 				9F5ECF191E2AD78E005F14C0 /* AppDelegate.swift */,
 				9F5ECF1B1E2AD78E005F14C0 /* ViewController.swift */,
 				9F5ECF1D1E2AD78E005F14C0 /* Main.storyboard */,
 				9F5ECF201E2AD78E005F14C0 /* Assets.xcassets */,
 				9F5ECF221E2AD78E005F14C0 /* LaunchScreen.storyboard */,
 				9F5ECF251E2AD78E005F14C0 /* Info.plist */,
+				9F5ECF4C1E2AF7CE005F14C0 /* SettingsTableViewController.swift */,
 			);
 			path = RangeSignals;
 			sourceTree = "<group>";
@@ -123,6 +133,16 @@
 				9F5ECF3B1E2AD78F005F14C0 /* Info.plist */,
 			);
 			path = RangeSignalsUITests;
+			sourceTree = "<group>";
+		};
+		9F5ECF491E2ADE09005F14C0 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				9FF8AF321E2C1E2800F5D46B /* buzzer2.mp3 */,
+				9FF8AF301E2BAAA500F5D46B /* whistle.mp3 */,
+				9F5ECF471E2ADDF1005F14C0 /* buzzer.mp3 */,
+			);
+			name = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,11 +208,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Kilhullenhome;
 				TargetAttributes = {
 					9F5ECF151E2AD78E005F14C0 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = HB2VSKG336;
 						ProvisioningStyle = Automatic;
 					};
 					9F5ECF291E2AD78F005F14C0 = {
@@ -233,6 +254,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F5ECF241E2AD78E005F14C0 /* LaunchScreen.storyboard in Resources */,
+				9F5ECF481E2ADDF1005F14C0 /* buzzer.mp3 in Resources */,
+				9FF8AF311E2BAAA500F5D46B /* whistle.mp3 in Resources */,
+				9FF8AF331E2C1E2800F5D46B /* buzzer2.mp3 in Resources */,
 				9F5ECF211E2AD78E005F14C0 /* Assets.xcassets in Resources */,
 				9F5ECF1F1E2AD78E005F14C0 /* Main.storyboard in Resources */,
 			);
@@ -261,6 +285,7 @@
 			files = (
 				9F5ECF1C1E2AD78E005F14C0 /* ViewController.swift in Sources */,
 				9F5ECF1A1E2AD78E005F14C0 /* AppDelegate.swift in Sources */,
+				9F5ECF4D1E2AF7CE005F14C0 /* SettingsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +358,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -383,6 +409,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -412,7 +439,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HB2VSKG336;
 				INFOPLIST_FILE = RangeSignals/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kilhullenhome.RangeSignals;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +453,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HB2VSKG336;
 				INFOPLIST_FILE = RangeSignals/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kilhullenhome.RangeSignals;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +536,7 @@
 				9F5ECF401E2AD78F005F14C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F5ECF411E2AD78F005F14C0 /* Build configuration list for PBXNativeTarget "RangeSignalsTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +545,7 @@
 				9F5ECF431E2AD78F005F14C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F5ECF441E2AD78F005F14C0 /* Build configuration list for PBXNativeTarget "RangeSignalsUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +554,7 @@
 				9F5ECF461E2AD78F005F14C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
