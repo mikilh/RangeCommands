@@ -45,6 +45,14 @@ class SettingsTableViewController: UITableViewController {
         }
         return 1
     }
+    
+    override func tableView(_ tableView: UITableView, willSelectRowAt indexPath: IndexPath) -> IndexPath? {
+        if indexPath.section == 0 {
+            return nil
+        }
+        return indexPath
+    }
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         selectSound()

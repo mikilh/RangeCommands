@@ -121,7 +121,7 @@ class ViewController: UIViewController {
     }
     
     func resetTimer() {
-        if timerEnabled {
+        if timerEnabled && timer != nil {
             timer.invalidate()
             timerLabel.text = "Timer set: \(seconds)"
         }
