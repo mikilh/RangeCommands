@@ -51,7 +51,7 @@ class ViewController: UIViewController {
                 timerEnabled = false
                 timerLabel.text = "add time limit to settings"
             } else {
-                timerLabel.text = "Timer set: \(seconds)"
+                updateTimerLabel(seconds)
             }
             
         } else {
@@ -112,18 +112,30 @@ class ViewController: UIViewController {
     
     func timerRunning() {
         timeleft -= 1
-        timerLabel.text = "Time remaining: \(timeleft)"
         if timeleft == 0 {
            retrieveAction(timerLabel)
             resetTimer()
+            return
         }
+        
+        updateTimerLabel(timeleft)
+    }
+    
+    private func updateTimerLabel(_ timeInSeconds: Int){
+        
+        var minutes, seconds: Int
+        
+        minutes = (timeInSeconds / 60 )
+        seconds = timeInSeconds - minutes * 60
+        
+        timerLabel.text = "\(String(format: "%02d", minutes)):\(String(format: "%02d", seconds))"
         
     }
     
     func resetTimer() {
         if timerEnabled && timer != nil {
             timer.invalidate()
-            timerLabel.text = "Timer set: \(seconds)"
+            updateTimerLabel(seconds)
         }
         
     }
