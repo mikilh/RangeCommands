@@ -71,17 +71,17 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="gAV-0r-iUB">
                                         <rect key="frame" x="0.0" y="356.5" width="343" height="107.5"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="bZs-6Y-gpa">
-                                                <rect key="frame" x="0.0" y="0.0" width="343" height="54"/>
+                                            <stackView autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="29" translatesAutoresizingMaskIntoConstraints="NO" id="bZs-6Y-gpa">
+                                                <rect key="frame" x="40.5" y="0.0" width="262" height="54"/>
                                                 <subviews>
-                                                    <stepper hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="gI8-nJ-erW">
+                                                    <stepper hidden="YES" opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="gI8-nJ-erW">
                                                         <rect key="frame" x="0.0" y="12.5" width="94" height="29"/>
                                                         <connections>
                                                             <action selector="stepperValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="PiK-zV-CYw"/>
                                                         </connections>
                                                     </stepper>
-                                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oTc-Q1-ait">
-                                                        <rect key="frame" x="126" y="10" width="91" height="33.5"/>
+                                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="750" horizontalCompressionResistancePriority="1000" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oTc-Q1-ait">
+                                                        <rect key="frame" x="97" y="10" width="68" height="33.5"/>
                                                         <gestureRecognizers/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                                         <nil key="textColor"/>
@@ -90,8 +90,8 @@
                                                             <outletCollection property="gestureRecognizers" destination="0E1-iG-jzO" appends="YES" id="pfl-OJ-utM"/>
                                                         </connections>
                                                     </label>
-                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FBQ-Zb-6B9">
-                                                        <rect key="frame" x="252" y="12" width="91" height="30"/>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FBQ-Zb-6B9">
+                                                        <rect key="frame" x="194" y="12" width="68" height="30"/>
                                                         <state key="normal" title="Reset"/>
                                                         <connections>
                                                             <action selector="resetButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rtv-Cy-mZx"/>

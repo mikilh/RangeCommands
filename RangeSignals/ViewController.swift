@@ -69,7 +69,7 @@ class ViewController: UIViewController {
     
     // action to pause the timer without sending tones
     @IBAction func timerTapped(_ sender: UITapGestureRecognizer) {
-        if timerEnabled {
+        if timerEnabled && timer != nil {
             if timerPaused {
                 resumeTimer()
             } else {
