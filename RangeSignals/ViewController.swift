@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var timerLabel: UILabel!
 
+    // MARK: - Actions
     @IBAction func prepareButton(_ sender: UIButton) {
         playSound(1)
     }
@@ -35,6 +36,9 @@ class ViewController: UIViewController {
     @IBAction func ceaseButton(_ sender: UIButton) {
         playSound(4)
     }
+    
+    // MARK: - overrides
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -47,12 +51,7 @@ class ViewController: UIViewController {
         if defaults.bool(forKey: "RangeCommands.timerSwitch") {
             timerEnabled = true
             seconds = defaults.integer(forKey: "RangeCommands.seconds")
-            if seconds == 0 {
-                timerEnabled = false
-                timerLabel.text = "add time limit to settings"
-            } else {
-                updateTimerLabel(seconds)
-            }
+            updateTimerLabel(seconds)
             
         } else {
             timerEnabled = false
@@ -65,32 +64,42 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        if timer == nil {
+            return true
+        } else if timer.isValid {
+            return false
+        }
+        return true
+    }
+    
+    // MARK: - methods
 
-    func playSound(_ times: Int) {
+    func playSound(_ thisManyTimes: Int) {
         guard let url = Bundle.main.url(forResource: soundEffect, withExtension: "mp3") else {
             print("url not found")
             return
         }
         do {
-            /// this codes for making this app ready to takeover the device audio
             try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
             try AVAudioSession.sharedInstance().setActive(true)
             
-            /// change fileTypeHint according to the type of your audio file (you can omit this)
             player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileTypeMPEGLayer3)
             
-            // no need for prepareToPlay because prepareToPlay is happen automatically when calling play()
-            player!.numberOfLoops = times
+            player!.numberOfLoops = thisManyTimes
             player!.enableRate = true
-            if times > 3 {
-                if soundEffect == "buzzer2" {
+            
+            // for cease fire, make the sounds more rapid
+            if thisManyTimes > 3 {
+                if soundEffect == "buzzer2" { //adjustment for specific sound length
                     player!.rate = 2
                 } else {
                     player!.rate = 4
                 }
             }
             else {
-                if soundEffect == "buzzer2" {
+                if soundEffect == "buzzer2" { //adjustment for specific sound length
                     player!.rate = 1
                 } else {
                     player!.rate = 2
@@ -103,13 +112,15 @@ class ViewController: UIViewController {
         }
     }
     
-    func startTimer(){
+    /// start thie timer
+    fileprivate func startTimer(){
         if timerEnabled {
             timeleft = seconds
             timer = Timer.scheduledTimer(timeInterval: 1.0 , target: self, selector: #selector(timerRunning), userInfo: nil, repeats: true)
         }
     }
     
+    /// timer selector
     func timerRunning() {
         timeleft -= 1
         if timeleft == 0 {
@@ -121,7 +132,8 @@ class ViewController: UIViewController {
         updateTimerLabel(timeleft)
     }
     
-    private func updateTimerLabel(_ timeInSeconds: Int){
+    /// update the timer label to appear as a clock
+    fileprivate func updateTimerLabel(_ timeInSeconds: Int){
         
         var minutes, seconds: Int
         
@@ -131,8 +143,8 @@ class ViewController: UIViewController {
         timerLabel.text = "\(String(format: "%02d", minutes)):\(String(format: "%02d", seconds))"
         
     }
-    
-    func resetTimer() {
+    /// reset the timer
+    fileprivate func resetTimer() {
         if timerEnabled && timer != nil {
             timer.invalidate()
             updateTimerLabel(seconds)
@@ -140,13 +152,5 @@ class ViewController: UIViewController {
         
     }
     
-    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
-        if timer == nil {
-            return true
-        } else if timer.isValid {
-            return false
-        }
-        return true
-    }
 }
 
