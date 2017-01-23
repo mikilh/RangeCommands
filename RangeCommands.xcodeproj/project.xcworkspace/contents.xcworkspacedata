@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:RangeSignals.xcodeproj">
+      location = "self:/Users/mikilh/Developer/RangeSignals/RangeCommands.xcodeproj">
    </FileRef>
 </Workspace>

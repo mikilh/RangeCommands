@@ -12,47 +12,47 @@
 		9F5ECF1F1E2AD78E005F14C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F5ECF1D1E2AD78E005F14C0 /* Main.storyboard */; };
 		9F5ECF211E2AD78E005F14C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F5ECF201E2AD78E005F14C0 /* Assets.xcassets */; };
 		9F5ECF241E2AD78E005F14C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F5ECF221E2AD78E005F14C0 /* LaunchScreen.storyboard */; };
-		9F5ECF2F1E2AD78F005F14C0 /* RangeSignalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5ECF2E1E2AD78F005F14C0 /* RangeSignalsTests.swift */; };
-		9F5ECF3A1E2AD78F005F14C0 /* RangeSignalsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5ECF391E2AD78F005F14C0 /* RangeSignalsUITests.swift */; };
 		9F5ECF481E2ADDF1005F14C0 /* buzzer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F5ECF471E2ADDF1005F14C0 /* buzzer.mp3 */; };
 		9F5ECF4D1E2AF7CE005F14C0 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5ECF4C1E2AF7CE005F14C0 /* SettingsTableViewController.swift */; };
+		9F60FF601E36AD8B00982F84 /* RangeCommandsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F60FF5F1E36AD8B00982F84 /* RangeCommandsUITests.swift */; };
+		9F60FF6E1E36ADAC00982F84 /* RangeCommandsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F60FF6D1E36ADAC00982F84 /* RangeCommandsTests.swift */; };
 		9FF8AF311E2BAAA500F5D46B /* whistle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9FF8AF301E2BAAA500F5D46B /* whistle.mp3 */; };
 		9FF8AF331E2C1E2800F5D46B /* buzzer2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9FF8AF321E2C1E2800F5D46B /* buzzer2.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9F5ECF2B1E2AD78F005F14C0 /* PBXContainerItemProxy */ = {
+		9F60FF621E36AD8B00982F84 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9F5ECF0E1E2AD78E005F14C0 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9F5ECF151E2AD78E005F14C0;
-			remoteInfo = RangeSignals;
+			remoteInfo = RangeCommands;
 		};
-		9F5ECF361E2AD78F005F14C0 /* PBXContainerItemProxy */ = {
+		9F60FF701E36ADAC00982F84 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9F5ECF0E1E2AD78E005F14C0 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9F5ECF151E2AD78E005F14C0;
-			remoteInfo = RangeSignals;
+			remoteInfo = RangeCommands;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9F5ECF161E2AD78E005F14C0 /* RangeSignals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RangeSignals.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F5ECF161E2AD78E005F14C0 /* RangeCommands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RangeCommands.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F5ECF191E2AD78E005F14C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F5ECF1B1E2AD78E005F14C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9F5ECF1E1E2AD78E005F14C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F5ECF201E2AD78E005F14C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F5ECF231E2AD78E005F14C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F5ECF251E2AD78E005F14C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F5ECF2A1E2AD78F005F14C0 /* RangeSignalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RangeSignalsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F5ECF2E1E2AD78F005F14C0 /* RangeSignalsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSignalsTests.swift; sourceTree = "<group>"; };
-		9F5ECF301E2AD78F005F14C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F5ECF351E2AD78F005F14C0 /* RangeSignalsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RangeSignalsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F5ECF391E2AD78F005F14C0 /* RangeSignalsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSignalsUITests.swift; sourceTree = "<group>"; };
-		9F5ECF3B1E2AD78F005F14C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F5ECF471E2ADDF1005F14C0 /* buzzer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buzzer.mp3; sourceTree = "<group>"; };
 		9F5ECF4C1E2AF7CE005F14C0 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		9F60FF5D1E36AD8B00982F84 /* RangeCommandsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RangeCommandsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F60FF5F1E36AD8B00982F84 /* RangeCommandsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeCommandsUITests.swift; sourceTree = "<group>"; };
+		9F60FF611E36AD8B00982F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F60FF6B1E36ADAC00982F84 /* RangeCommandsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RangeCommandsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F60FF6D1E36ADAC00982F84 /* RangeCommandsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeCommandsTests.swift; sourceTree = "<group>"; };
+		9F60FF6F1E36ADAC00982F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FF8AF301E2BAAA500F5D46B /* whistle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whistle.mp3; sourceTree = "<group>"; };
 		9FF8AF321E2C1E2800F5D46B /* buzzer2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buzzer2.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,14 +65,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F5ECF271E2AD78F005F14C0 /* Frameworks */ = {
+		9F60FF5A1E36AD8B00982F84 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F5ECF321E2AD78F005F14C0 /* Frameworks */ = {
+		9F60FF681E36ADAC00982F84 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -85,9 +85,9 @@
 		9F5ECF0D1E2AD78E005F14C0 = {
 			isa = PBXGroup;
 			children = (
-				9F5ECF181E2AD78E005F14C0 /* RangeSignals */,
-				9F5ECF2D1E2AD78F005F14C0 /* RangeSignalsTests */,
-				9F5ECF381E2AD78F005F14C0 /* RangeSignalsUITests */,
+				9F5ECF181E2AD78E005F14C0 /* RangeCommands */,
+				9F60FF5E1E36AD8B00982F84 /* RangeCommandsUITests */,
+				9F60FF6C1E36ADAC00982F84 /* RangeCommandsTests */,
 				9F5ECF171E2AD78E005F14C0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,14 +95,14 @@
 		9F5ECF171E2AD78E005F14C0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9F5ECF161E2AD78E005F14C0 /* RangeSignals.app */,
-				9F5ECF2A1E2AD78F005F14C0 /* RangeSignalsTests.xctest */,
-				9F5ECF351E2AD78F005F14C0 /* RangeSignalsUITests.xctest */,
+				9F5ECF161E2AD78E005F14C0 /* RangeCommands.app */,
+				9F60FF5D1E36AD8B00982F84 /* RangeCommandsUITests.xctest */,
+				9F60FF6B1E36ADAC00982F84 /* RangeCommandsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9F5ECF181E2AD78E005F14C0 /* RangeSignals */ = {
+		9F5ECF181E2AD78E005F14C0 /* RangeCommands */ = {
 			isa = PBXGroup;
 			children = (
 				9F5ECF491E2ADE09005F14C0 /* sounds */,
@@ -114,25 +114,7 @@
 				9F5ECF251E2AD78E005F14C0 /* Info.plist */,
 				9F5ECF4C1E2AF7CE005F14C0 /* SettingsTableViewController.swift */,
 			);
-			path = RangeSignals;
-			sourceTree = "<group>";
-		};
-		9F5ECF2D1E2AD78F005F14C0 /* RangeSignalsTests */ = {
-			isa = PBXGroup;
-			children = (
-				9F5ECF2E1E2AD78F005F14C0 /* RangeSignalsTests.swift */,
-				9F5ECF301E2AD78F005F14C0 /* Info.plist */,
-			);
-			path = RangeSignalsTests;
-			sourceTree = "<group>";
-		};
-		9F5ECF381E2AD78F005F14C0 /* RangeSignalsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				9F5ECF391E2AD78F005F14C0 /* RangeSignalsUITests.swift */,
-				9F5ECF3B1E2AD78F005F14C0 /* Info.plist */,
-			);
-			path = RangeSignalsUITests;
+			path = RangeCommands;
 			sourceTree = "<group>";
 		};
 		9F5ECF491E2ADE09005F14C0 /* sounds */ = {
@@ -145,12 +127,30 @@
 			name = sounds;
 			sourceTree = "<group>";
 		};
+		9F60FF5E1E36AD8B00982F84 /* RangeCommandsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F60FF5F1E36AD8B00982F84 /* RangeCommandsUITests.swift */,
+				9F60FF611E36AD8B00982F84 /* Info.plist */,
+			);
+			path = RangeCommandsUITests;
+			sourceTree = "<group>";
+		};
+		9F60FF6C1E36ADAC00982F84 /* RangeCommandsTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F60FF6D1E36ADAC00982F84 /* RangeCommandsTests.swift */,
+				9F60FF6F1E36ADAC00982F84 /* Info.plist */,
+			);
+			path = RangeCommandsTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9F5ECF151E2AD78E005F14C0 /* RangeSignals */ = {
+		9F5ECF151E2AD78E005F14C0 /* RangeCommands */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F5ECF3E1E2AD78F005F14C0 /* Build configuration list for PBXNativeTarget "RangeSignals" */;
+			buildConfigurationList = 9F5ECF3E1E2AD78F005F14C0 /* Build configuration list for PBXNativeTarget "RangeCommands" */;
 			buildPhases = (
 				9F5ECF121E2AD78E005F14C0 /* Sources */,
 				9F5ECF131E2AD78E005F14C0 /* Frameworks */,
@@ -160,46 +160,46 @@
 			);
 			dependencies = (
 			);
-			name = RangeSignals;
+			name = RangeCommands;
 			productName = RangeSignals;
-			productReference = 9F5ECF161E2AD78E005F14C0 /* RangeSignals.app */;
+			productReference = 9F5ECF161E2AD78E005F14C0 /* RangeCommands.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9F5ECF291E2AD78F005F14C0 /* RangeSignalsTests */ = {
+		9F60FF5C1E36AD8B00982F84 /* RangeCommandsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F5ECF411E2AD78F005F14C0 /* Build configuration list for PBXNativeTarget "RangeSignalsTests" */;
+			buildConfigurationList = 9F60FF641E36AD8B00982F84 /* Build configuration list for PBXNativeTarget "RangeCommandsUITests" */;
 			buildPhases = (
-				9F5ECF261E2AD78F005F14C0 /* Sources */,
-				9F5ECF271E2AD78F005F14C0 /* Frameworks */,
-				9F5ECF281E2AD78F005F14C0 /* Resources */,
+				9F60FF591E36AD8B00982F84 /* Sources */,
+				9F60FF5A1E36AD8B00982F84 /* Frameworks */,
+				9F60FF5B1E36AD8B00982F84 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9F5ECF2C1E2AD78F005F14C0 /* PBXTargetDependency */,
+				9F60FF631E36AD8B00982F84 /* PBXTargetDependency */,
 			);
-			name = RangeSignalsTests;
-			productName = RangeSignalsTests;
-			productReference = 9F5ECF2A1E2AD78F005F14C0 /* RangeSignalsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		9F5ECF341E2AD78F005F14C0 /* RangeSignalsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9F5ECF441E2AD78F005F14C0 /* Build configuration list for PBXNativeTarget "RangeSignalsUITests" */;
-			buildPhases = (
-				9F5ECF311E2AD78F005F14C0 /* Sources */,
-				9F5ECF321E2AD78F005F14C0 /* Frameworks */,
-				9F5ECF331E2AD78F005F14C0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9F5ECF371E2AD78F005F14C0 /* PBXTargetDependency */,
-			);
-			name = RangeSignalsUITests;
-			productName = RangeSignalsUITests;
-			productReference = 9F5ECF351E2AD78F005F14C0 /* RangeSignalsUITests.xctest */;
+			name = RangeCommandsUITests;
+			productName = RangeCommandsUITests;
+			productReference = 9F60FF5D1E36AD8B00982F84 /* RangeCommandsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9F60FF6A1E36ADAC00982F84 /* RangeCommandsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F60FF721E36ADAC00982F84 /* Build configuration list for PBXNativeTarget "RangeCommandsTests" */;
+			buildPhases = (
+				9F60FF671E36ADAC00982F84 /* Sources */,
+				9F60FF681E36ADAC00982F84 /* Frameworks */,
+				9F60FF691E36ADAC00982F84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F60FF711E36ADAC00982F84 /* PBXTargetDependency */,
+			);
+			name = RangeCommandsTests;
+			productName = RangeCommandsTests;
+			productReference = 9F60FF6B1E36ADAC00982F84 /* RangeCommandsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -207,7 +207,7 @@
 		9F5ECF0E1E2AD78E005F14C0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0810;
+				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Kilhullenhome;
 				TargetAttributes = {
@@ -216,19 +216,21 @@
 						DevelopmentTeam = HB2VSKG336;
 						ProvisioningStyle = Automatic;
 					};
-					9F5ECF291E2AD78F005F14C0 = {
-						CreatedOnToolsVersion = 8.1;
+					9F60FF5C1E36AD8B00982F84 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = HB2VSKG336;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 9F5ECF151E2AD78E005F14C0;
 					};
-					9F5ECF341E2AD78F005F14C0 = {
-						CreatedOnToolsVersion = 8.1;
+					9F60FF6A1E36ADAC00982F84 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = HB2VSKG336;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 9F5ECF151E2AD78E005F14C0;
 					};
 				};
 			};
-			buildConfigurationList = 9F5ECF111E2AD78E005F14C0 /* Build configuration list for PBXProject "RangeSignals" */;
+			buildConfigurationList = 9F5ECF111E2AD78E005F14C0 /* Build configuration list for PBXProject "RangeCommands" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -241,9 +243,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9F5ECF151E2AD78E005F14C0 /* RangeSignals */,
-				9F5ECF291E2AD78F005F14C0 /* RangeSignalsTests */,
-				9F5ECF341E2AD78F005F14C0 /* RangeSignalsUITests */,
+				9F5ECF151E2AD78E005F14C0 /* RangeCommands */,
+				9F60FF5C1E36AD8B00982F84 /* RangeCommandsUITests */,
+				9F60FF6A1E36ADAC00982F84 /* RangeCommandsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -262,14 +264,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F5ECF281E2AD78F005F14C0 /* Resources */ = {
+		9F60FF5B1E36AD8B00982F84 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F5ECF331E2AD78F005F14C0 /* Resources */ = {
+		9F60FF691E36ADAC00982F84 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -289,34 +291,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F5ECF261E2AD78F005F14C0 /* Sources */ = {
+		9F60FF591E36AD8B00982F84 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F5ECF2F1E2AD78F005F14C0 /* RangeSignalsTests.swift in Sources */,
+				9F60FF601E36AD8B00982F84 /* RangeCommandsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F5ECF311E2AD78F005F14C0 /* Sources */ = {
+		9F60FF671E36ADAC00982F84 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F5ECF3A1E2AD78F005F14C0 /* RangeSignalsUITests.swift in Sources */,
+				9F60FF6E1E36ADAC00982F84 /* RangeCommandsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9F5ECF2C1E2AD78F005F14C0 /* PBXTargetDependency */ = {
+		9F60FF631E36AD8B00982F84 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9F5ECF151E2AD78E005F14C0 /* RangeSignals */;
-			targetProxy = 9F5ECF2B1E2AD78F005F14C0 /* PBXContainerItemProxy */;
+			target = 9F5ECF151E2AD78E005F14C0 /* RangeCommands */;
+			targetProxy = 9F60FF621E36AD8B00982F84 /* PBXContainerItemProxy */;
 		};
-		9F5ECF371E2AD78F005F14C0 /* PBXTargetDependency */ = {
+		9F60FF711E36ADAC00982F84 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9F5ECF151E2AD78E005F14C0 /* RangeSignals */;
-			targetProxy = 9F5ECF361E2AD78F005F14C0 /* PBXContainerItemProxy */;
+			target = 9F5ECF151E2AD78E005F14C0 /* RangeCommands */;
+			targetProxy = 9F60FF701E36ADAC00982F84 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -440,10 +442,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HB2VSKG336;
-				INFOPLIST_FILE = RangeSignals/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RangeCommands/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kilhullenhome.RangeSignals;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kilhullenhome.RangeCommands;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -455,74 +457,78 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HB2VSKG336;
-				INFOPLIST_FILE = RangeSignals/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RangeCommands/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kilhullenhome.RangeSignals;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kilhullenhome.RangeCommands;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
-		9F5ECF421E2AD78F005F14C0 /* Debug */ = {
+		9F60FF651E36AD8B00982F84 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = RangeSignalsTests/Info.plist;
+				DEVELOPMENT_TEAM = HB2VSKG336;
+				INFOPLIST_FILE = RangeCommandsUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kilhullenhome.RangeSignalsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kilhullenhome.RangeCommandsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RangeSignals.app/RangeSignals";
+				TEST_TARGET_NAME = RangeCommands;
 			};
 			name = Debug;
 		};
-		9F5ECF431E2AD78F005F14C0 /* Release */ = {
+		9F60FF661E36AD8B00982F84 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = RangeSignalsTests/Info.plist;
+				DEVELOPMENT_TEAM = HB2VSKG336;
+				INFOPLIST_FILE = RangeCommandsUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kilhullenhome.RangeSignalsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kilhullenhome.RangeCommandsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RangeSignals.app/RangeSignals";
+				TEST_TARGET_NAME = RangeCommands;
 			};
 			name = Release;
 		};
-		9F5ECF451E2AD78F005F14C0 /* Debug */ = {
+		9F60FF731E36ADAC00982F84 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = RangeSignalsUITests/Info.plist;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HB2VSKG336;
+				INFOPLIST_FILE = RangeCommandsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kilhullenhome.RangeSignalsUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kilhullenhome.RangeCommandsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = RangeSignals;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RangeCommands.app/RangeCommands";
 			};
 			name = Debug;
 		};
-		9F5ECF461E2AD78F005F14C0 /* Release */ = {
+		9F60FF741E36ADAC00982F84 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = RangeSignalsUITests/Info.plist;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HB2VSKG336;
+				INFOPLIST_FILE = RangeCommandsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kilhullenhome.RangeSignalsUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kilhullenhome.RangeCommandsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = RangeSignals;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RangeCommands.app/RangeCommands";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9F5ECF111E2AD78E005F14C0 /* Build configuration list for PBXProject "RangeSignals" */ = {
+		9F5ECF111E2AD78E005F14C0 /* Build configuration list for PBXProject "RangeCommands" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9F5ECF3C1E2AD78F005F14C0 /* Debug */,
@@ -531,7 +537,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F5ECF3E1E2AD78F005F14C0 /* Build configuration list for PBXNativeTarget "RangeSignals" */ = {
+		9F5ECF3E1E2AD78F005F14C0 /* Build configuration list for PBXNativeTarget "RangeCommands" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9F5ECF3F1E2AD78F005F14C0 /* Debug */,
@@ -540,23 +546,21 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F5ECF411E2AD78F005F14C0 /* Build configuration list for PBXNativeTarget "RangeSignalsTests" */ = {
+		9F60FF641E36AD8B00982F84 /* Build configuration list for PBXNativeTarget "RangeCommandsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9F5ECF421E2AD78F005F14C0 /* Debug */,
-				9F5ECF431E2AD78F005F14C0 /* Release */,
+				9F60FF651E36AD8B00982F84 /* Debug */,
+				9F60FF661E36AD8B00982F84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		9F5ECF441E2AD78F005F14C0 /* Build configuration list for PBXNativeTarget "RangeSignalsUITests" */ = {
+		9F60FF721E36ADAC00982F84 /* Build configuration list for PBXNativeTarget "RangeCommandsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9F5ECF451E2AD78F005F14C0 /* Debug */,
-				9F5ECF461E2AD78F005F14C0 /* Release */,
+				9F60FF731E36ADAC00982F84 /* Debug */,
+				9F60FF741E36ADAC00982F84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
