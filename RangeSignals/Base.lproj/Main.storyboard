@@ -144,7 +144,6 @@
                         <outlet property="optionsButton" destination="9Ym-kR-xkz" id="CD9-nc-7ZA"/>
                         <outlet property="pauseLabel" destination="Mu8-aL-QVa" id="gF5-Zi-Xah"/>
                         <outlet property="resetTimerButton" destination="FBQ-Zb-6B9" id="35P-2q-v4H"/>
-                        <outlet property="retrieveButton" destination="TdM-58-ByG" id="KSr-f1-RvJ"/>
                         <outlet property="shootButton" destination="Lo4-Qg-Cko" id="bVe-se-s83"/>
                         <outlet property="timerLabel" destination="oTc-Q1-ait" id="Pw2-X5-Rt0"/>
                     </connections>
@@ -197,7 +196,7 @@
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="IXQ-4q-B8b">
+                                                        <stepper hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="IXQ-4q-B8b">
                                                             <rect key="frame" x="254" y="0.0" width="94" height="29"/>
                                                             <connections>
                                                                 <action selector="stepperValueChanged:" destination="O4R-e5-XeF" eventType="valueChanged" id="6Gh-DB-bQR"/>

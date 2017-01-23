@@ -25,7 +25,7 @@ class SettingsTableViewController: UITableViewController {
     
     @IBAction func timerSwitched(_ sender: UISwitch) {
         
-        stepper.isEnabled = sender.isOn
+        stepper.isHidden = !sender.isOn
         updateTimeLabel(Int(stepper.value))
         
     }
@@ -58,7 +58,8 @@ class SettingsTableViewController: UITableViewController {
         if timerSwitch.isOn {
             stepper.value = Double(seconds)
             updateTimeLabel(seconds)
-        }
+            stepper.isHidden = false
+        } 
         
     }
     

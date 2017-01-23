@@ -23,7 +23,6 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var lineButton: UIButton!
     @IBOutlet weak var shootButton: UIButton!
-    @IBOutlet weak var retrieveButton: UIButton!
     @IBOutlet weak var ceasefireButton: UIButton!
     @IBOutlet weak var timerLabel: UILabel!
     @IBOutlet weak var pauseLabel: UILabel!
@@ -53,6 +52,9 @@ class ViewController: UIViewController {
     @IBAction func retrieveAction(_ sender: Any) {
         playSound(2)
         if timerEnabled {
+            if timerPaused {
+                resumeTimer()
+            }
          resetTimer()
         }
     }
@@ -182,7 +184,6 @@ class ViewController: UIViewController {
         pauseLabel.startBlink()
         lineButton.isEnabled = true
         shootButton.isEnabled = true
-        retrieveButton.isEnabled = false
         resetTimerButton.isHidden = false
         adjustTimerStepper.value = Double(timeleft)
         adjustTimerStepper.isHidden = false
@@ -195,7 +196,6 @@ class ViewController: UIViewController {
         pauseLabel.stopBlink()
         lineButton.isEnabled = false
         shootButton.isEnabled = false
-        retrieveButton.isEnabled = true
         resetTimerButton.isHidden = true
         adjustTimerStepper.isHidden = true
     }
