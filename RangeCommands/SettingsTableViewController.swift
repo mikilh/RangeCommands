@@ -69,7 +69,7 @@ class SettingsTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if section == 1 {
-            return 3
+            return 4
         }
         return 1
     }
@@ -138,6 +138,7 @@ class SettingsTableViewController: UITableViewController {
         switch soundEffect! {
         case "buzzer": row = 0
         case "buzzer2": row = 1
+            case "whistle2": row = 3
         default: row = 2
         }
         let indexPath = IndexPath(row: row, section: 1)
@@ -150,6 +151,7 @@ class SettingsTableViewController: UITableViewController {
         switch row {
         case 0: return "buzzer"
         case 1: return "buzzer2"
+        case 3: return "whistle2"
         default: return "whistle"
         }
     }
@@ -157,7 +159,7 @@ class SettingsTableViewController: UITableViewController {
     /// only one sound can be picked so clear all accessories
     func deSelectSound(){
       
-        for row in 0...2 {
+        for row in 0...3 {
             let indexPath = IndexPath(row: row, section: 1)
             let cell = tableView.cellForRow(at: indexPath)
             cell?.accessoryType = .none
