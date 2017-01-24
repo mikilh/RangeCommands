@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		9F4724381E38183E00D62F62 /* whistle2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F4724371E38183E00D62F62 /* whistle2.mp3 */; };
 		9F5ECF1A1E2AD78E005F14C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5ECF191E2AD78E005F14C0 /* AppDelegate.swift */; };
-		9F5ECF1C1E2AD78E005F14C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5ECF1B1E2AD78E005F14C0 /* ViewController.swift */; };
+		9F5ECF1C1E2AD78E005F14C0 /* RangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5ECF1B1E2AD78E005F14C0 /* RangeViewController.swift */; };
 		9F5ECF1F1E2AD78E005F14C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F5ECF1D1E2AD78E005F14C0 /* Main.storyboard */; };
 		9F5ECF211E2AD78E005F14C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F5ECF201E2AD78E005F14C0 /* Assets.xcassets */; };
 		9F5ECF241E2AD78E005F14C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F5ECF221E2AD78E005F14C0 /* LaunchScreen.storyboard */; };
@@ -42,7 +42,7 @@
 		9F4724371E38183E00D62F62 /* whistle2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whistle2.mp3; sourceTree = "<group>"; };
 		9F5ECF161E2AD78E005F14C0 /* RangeCommands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RangeCommands.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F5ECF191E2AD78E005F14C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9F5ECF1B1E2AD78E005F14C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F5ECF1B1E2AD78E005F14C0 /* RangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeViewController.swift; sourceTree = "<group>"; };
 		9F5ECF1E1E2AD78E005F14C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F5ECF201E2AD78E005F14C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F5ECF231E2AD78E005F14C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -109,7 +109,7 @@
 			children = (
 				9F5ECF491E2ADE09005F14C0 /* sounds */,
 				9F5ECF191E2AD78E005F14C0 /* AppDelegate.swift */,
-				9F5ECF1B1E2AD78E005F14C0 /* ViewController.swift */,
+				9F5ECF1B1E2AD78E005F14C0 /* RangeViewController.swift */,
 				9F5ECF1D1E2AD78E005F14C0 /* Main.storyboard */,
 				9F5ECF201E2AD78E005F14C0 /* Assets.xcassets */,
 				9F5ECF221E2AD78E005F14C0 /* LaunchScreen.storyboard */,
@@ -289,7 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F5ECF1C1E2AD78E005F14C0 /* ViewController.swift in Sources */,
+				9F5ECF1C1E2AD78E005F14C0 /* RangeViewController.swift in Sources */,
 				9F5ECF1A1E2AD78E005F14C0 /* AppDelegate.swift in Sources */,
 				9F5ECF4D1E2AF7CE005F14C0 /* SettingsTableViewController.swift in Sources */,
 			);

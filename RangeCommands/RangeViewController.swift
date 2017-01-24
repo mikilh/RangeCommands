@@ -1,17 +1,16 @@
 //
-//  ViewController.swift
-//  RangeSignals
+//  RangeViewController.swift
+//  RangeCommands
 //
 //  Created by Michael Kilhullen on 1/14/17.
 //  Copyright © 2017 Kilhullenhome. All rights reserved.
 //
 
-// TODO: toggle button display to indicate that it's not enabled
 
 import UIKit
 import AVFoundation
 
-class ViewController: UIViewController {
+class RangeViewController: UIViewController {
 
     var player: AVAudioPlayer?
     var timer: Timer?
