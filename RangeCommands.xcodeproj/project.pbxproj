@@ -453,6 +453,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = HB2VSKG336;
 				INFOPLIST_FILE = "$(SRCROOT)/RangeCommands/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -468,6 +469,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = HB2VSKG336;
 				INFOPLIST_FILE = "$(SRCROOT)/RangeCommands/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
