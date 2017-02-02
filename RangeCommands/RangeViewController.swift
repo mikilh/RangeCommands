@@ -22,7 +22,7 @@ class RangeViewController: UIViewController {
     
     @IBOutlet weak var lineButton: UIButton!
     @IBOutlet weak var shootButton: UIButton!
-    @IBOutlet weak var ceasefireButton: UIButton!
+    @IBOutlet weak var emergencyButton: UIButton!
     @IBOutlet weak var timerLabel: UILabel!
     @IBOutlet weak var pauseLabel: UILabel!
     @IBOutlet weak var adjustTimerStepper: UIStepper!
@@ -59,7 +59,7 @@ class RangeViewController: UIViewController {
     }
     
     /// cease fire button makes 5 more rapid tones and pauses the timer if enabled
-    @IBAction func ceaseButton(_ sender: UIButton) {
+    @IBAction func emergencyButtonAction(_ sender: UIButton) {
         playSound(4)
         if timerEnabled {
             if timer != nil {

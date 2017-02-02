@@ -17,6 +17,8 @@
 		9F5ECF4D1E2AF7CE005F14C0 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5ECF4C1E2AF7CE005F14C0 /* SettingsTableViewController.swift */; };
 		9F60FF601E36AD8B00982F84 /* RangeCommandsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F60FF5F1E36AD8B00982F84 /* RangeCommandsUITests.swift */; };
 		9F60FF6E1E36ADAC00982F84 /* RangeCommandsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F60FF6D1E36ADAC00982F84 /* RangeCommandsTests.swift */; };
+		9F79F5C31E381C330071C6C5 /* help.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9F79F5C21E381C330071C6C5 /* help.rtf */; };
+		9F79F5C51E3826090071C6C5 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79F5C41E3826090071C6C5 /* HelpViewController.swift */; };
 		9FF8AF311E2BAAA500F5D46B /* whistle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9FF8AF301E2BAAA500F5D46B /* whistle.mp3 */; };
 		9FF8AF331E2C1E2800F5D46B /* buzzer2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9FF8AF321E2C1E2800F5D46B /* buzzer2.mp3 */; };
 /* End PBXBuildFile section */
@@ -55,6 +57,8 @@
 		9F60FF6B1E36ADAC00982F84 /* RangeCommandsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RangeCommandsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F60FF6D1E36ADAC00982F84 /* RangeCommandsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeCommandsTests.swift; sourceTree = "<group>"; };
 		9F60FF6F1E36ADAC00982F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F79F5C21E381C330071C6C5 /* help.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = help.rtf; sourceTree = "<group>"; };
+		9F79F5C41E3826090071C6C5 /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 		9FF8AF301E2BAAA500F5D46B /* whistle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whistle.mp3; sourceTree = "<group>"; };
 		9FF8AF321E2C1E2800F5D46B /* buzzer2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buzzer2.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,6 +119,8 @@
 				9F5ECF221E2AD78E005F14C0 /* LaunchScreen.storyboard */,
 				9F5ECF251E2AD78E005F14C0 /* Info.plist */,
 				9F5ECF4C1E2AF7CE005F14C0 /* SettingsTableViewController.swift */,
+				9F79F5C21E381C330071C6C5 /* help.rtf */,
+				9F79F5C41E3826090071C6C5 /* HelpViewController.swift */,
 			);
 			path = RangeCommands;
 			sourceTree = "<group>";
@@ -261,6 +267,7 @@
 				9F5ECF241E2AD78E005F14C0 /* LaunchScreen.storyboard in Resources */,
 				9F5ECF481E2ADDF1005F14C0 /* buzzer.mp3 in Resources */,
 				9F4724381E38183E00D62F62 /* whistle2.mp3 in Resources */,
+				9F79F5C31E381C330071C6C5 /* help.rtf in Resources */,
 				9FF8AF311E2BAAA500F5D46B /* whistle.mp3 in Resources */,
 				9FF8AF331E2C1E2800F5D46B /* buzzer2.mp3 in Resources */,
 				9F5ECF211E2AD78E005F14C0 /* Assets.xcassets in Resources */,
@@ -292,6 +299,7 @@
 				9F5ECF1C1E2AD78E005F14C0 /* RangeViewController.swift in Sources */,
 				9F5ECF1A1E2AD78E005F14C0 /* AppDelegate.swift in Sources */,
 				9F5ECF4D1E2AF7CE005F14C0 /* SettingsTableViewController.swift in Sources */,
+				9F79F5C51E3826090071C6C5 /* HelpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
